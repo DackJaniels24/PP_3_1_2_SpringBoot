@@ -4,11 +4,11 @@ import com.example.springboot2.model.User;
 import com.example.springboot2.userDAO.UserDao;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Component
+@Service
 public class UserServiceImpl implements UserService {
     private final UserDao userDao;
 

@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 public class UserDaoImpl implements UserDao {
-@PersistenceContext(unitName = "entityManager")
+@PersistenceContext
 private EntityManager entityManager;
 
     @Override
